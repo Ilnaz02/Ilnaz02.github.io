@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+body {
+    background-color: #fff;
+    font-family: "Playfair Display";
+}
+
+nav {
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+ height: 90px;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.nav-link {
+    margin-left: 50px;
+}
+
+main {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.bottom {
+    font-size: 26px;
+};
+
+.top {
+    font-size: 15pxpx;
+}
+
+#main_img {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+#screen {
+    margin-top: 10%;
+}
+
+.screen {
+    width: 80%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 70% 25% 5%;
+}
+
+#table {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
